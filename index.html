@@ -299,6 +299,23 @@
       <p>Click or drag your art to your desktop to save, <br />or <input type="submit" value="upload to imgur.com" id="save-imgur" /> <a id="link-imgur"></a>!</p> 
     </div>
   </div>
+  <div id="uploader" class="draggy" title="upload an image" data-title="uploader">
+    <div class="controls">
+      <img class="ui-dragger" src="assets/draggybits/dragger2.png" alt="drag">
+      <img class="ui-hider" src="assets/draggybits/hider2.png" alt="minimize">
+    </div>
+
+    <h3>upload an image</h3>
+
+    <div id="uploader-width" class="inner">
+      <h3>image width</h3>
+      <input id="uploader-width" class="uploader-width-input" type="number" min="15" max="100" step="1" value="15" />
+      <input id="uploader-width-slider" class="uploader-width-input" type="range" min="15" max="100" step="1" value="15" />
+      <div id="drop-box" class="drop-here">
+        Drop an image here
+      </div>
+    </div>
+  </div>
   
 <script src="build/make8bitart.min.js"></script>
 <script src="//pmetrics.performancing.com/js" type="text/javascript"></script>
